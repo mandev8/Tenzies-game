@@ -4,18 +4,6 @@ import Die from "./components/Die";
 import { nanoid } from "nanoid";
 import Confetti from "react-confetti"
 
-/*
-Challenge:
-
-- import the array of data from data.js
-- map over the array to create <Card /> components
-- display the array of card components under the navbar
-  (in place of the current <Card /> component)
-
-Note: We haven't styled the group of components yet, so they'll
-still be block elements, stacked vertically. We'll add styling later.
-*/
-
 export default function App() {
   const [dice, setDice] = React.useState(allNewDice());
   const [tenzies, setTenzies] = React.useState(false);
